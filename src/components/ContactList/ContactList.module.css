@@ -1,0 +1,22 @@
+.contact_item {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 400px;
+  row-gap: 50px;
+  align-items: center;
+}
+
+.btn_delete {
+  background-color: rgb(93, 80, 80);
+  color: white;
+  padding: 5px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+}
+.btn_delete:hover {
+  background-color: rgb(205, 43, 43);
+}
